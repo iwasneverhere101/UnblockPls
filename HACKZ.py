@@ -4,21 +4,20 @@ import time
 
 def spam():
     while True:
-        webbrowser.open("https://www.youtube.com/results?search_query=hentai_sexy")
-        webbrowser.open("https://www.youtube.com/results?search_query=hentai_girls")
-        webbrowser.open("https://www.youtube.com/results?search_query=hentai")
+        webbrowser.open('https://hacks.com')
 
 
 os.system('clear')
 while True:
+    print("I ain't responsible for the shi* you do with this.")
     print("-----------------------------------------------------------------------------")
     print(" H  H      /=\     |====|  || //  =====// ")
     print(" H  H     /   \    ||      ||//      //   ")
     print(" H--H    /  /\ \   ||      | |      //    ")
     print(" H  H   /  /-\  \  ||      ||\\    //     ")
-    print(" H  H  /__/   \__\ |----|  || \\  //===== Made by Bigfatwormchips V.1.0")
+    print(" H  H  /__/   \__\ |----|  || \\  //===== Made by Bigfatwormchips V.2.0")
     print("------------------------------------------------------------------------------")
-
+    
  
 
                                                                                  
@@ -28,6 +27,7 @@ while True:
     print("----------------------------------------------------------------")
     print("[TOR: Type 'tor1' first and then 'tor2' to download tor        ]")
     print("[SPAM: Type 'spam' to run a simple spam virus                  ]")
+    print("[EMAIL SPAMMER: Type 'espam' to spam emails                    ]")
     print("[UPDATE SYSTEM: Type 'update' to update your system            ]")
     print("[EXIT: Type 'q' to exit                                        ] ")
     print("----------------------------------------------------------------")
@@ -63,6 +63,27 @@ while True:
         print("UPDATED SYSTEM")
         time.sleep(2)
         os.system('clear')
-        
         continue
+    elif enter == "espam":
+        import smtplib
+        message="HAHA"
+
+        print("EMAIL SPAMMER")
+        print("What is the email spamming")
+        emailsending=input("Enter:")
+        print("What is the email being spammed")
+        emailspammed=input("Enter :")
+        print("What is the email spamming password?")
+        password=input("Enter: ")
+
+        with smtplib.SMTP('smtp.gmail.com', '587') as smtpserver:
+            smtpserver.ehlo()
+            smtpserver.starttls()
+            smtpserver.ehlo()
+            smtpserver.login(emailsending, password)
+            while True:
+                smtpserver.sendmail(emailsending, emailspammed, message)
+                continue
+        
+
         
