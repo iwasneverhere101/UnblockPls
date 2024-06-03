@@ -10,7 +10,7 @@ def spam():
 
 os.system('clear')
 while True:
-    print(Fore.GREEN + "I ain't responsible for the shi* you do with this.")
+    print(Fore.RED + "I ain't responsible for the shi* you do with this.")
     print("-----------------------------------------------------------------------------")
     print(" HH  HH      /=\     |====|  || //  ======= ")
     print(" HH  HH     /   \    ||      ||//      //   ")
