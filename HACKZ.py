@@ -83,7 +83,15 @@ while True:
             smtpserver.login(emailsending, password)
             while True:
                 smtpserver.sendmail(emailsending, emailspammed, message)
+                print("SPAMMING")
                 continue
+    
+    else:
+        print("ERROR. COULD NOT UNDERSTAND")
+        time.sleep(3)
+        os.system('clear')
+        continue
+        
         
 
         
