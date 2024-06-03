@@ -1,3 +1,4 @@
+from colorama import Fore
 import os
 import webbrowser
 import time
@@ -9,13 +10,13 @@ def spam():
 
 os.system('clear')
 while True:
-    print("I ain't responsible for the shi* you do with this.")
+    print(Fore.RED + "I ain't responsible for the shi* you do with this.")
     print("-----------------------------------------------------------------------------")
-    print(" H  H      /=\     |====|  || //  =====// ")
-    print(" H  H     /   \    ||      ||//      //   ")
-    print(" H--H    /  /\ \   ||      | |      //    ")
-    print(" H  H   /  /-\  \  ||      ||\\    //     ")
-    print(" H  H  /__/   \__\ |----|  || \\  //===== Made by AvexProducts || V.2.0")
+    print(" HH  HH      /=\     |====|  || //  ======= ")
+    print(" HH  HH     /   \    ||      ||//      //   ")
+    print(" HH--HH    /  /\ \   ||      | |      //    ")
+    print(" HH  HH   /  /-\  \  ||      ||\\    //     ")
+    print(" HH  HH  /__/   \__\ |----|  || \\  ======= Made by AvexProducts || V.2.0")
     print("------------------------------------------------------------------------------")
     
  
@@ -29,6 +30,7 @@ while True:
     print("[SPAM: Type 'spam' to run a simple spam virus                  ]")
     print("[EMAIL SPAMMER: Type 'espam' to spam emails                    ]")
     print("[UPDATE SYSTEM: Type 'update' to update your system            ]")
+    print("[UPGRADE SYSTEM: Type 'upgrade' to upgrade your system         ]")
     print("[EXIT: Type 'q' to exit                                        ] ")
     print("----------------------------------------------------------------")
 
@@ -60,7 +62,7 @@ while True:
         continue
     elif enter == "update":
         os.system('sudo apt-get update')
-        print("UPDATED SYSTEM")
+        print("SYSTEM UPDATED")
         time.sleep(2)
         os.system('clear')
         continue
@@ -85,13 +87,19 @@ while True:
                 smtpserver.sendmail(emailsending, emailspammed, message)
                 print("SPAMMING")
                 continue
-    
+
+    elif enter == "upgrade":
+        os.system('sudo apt-get upgrade')
+        print("SYSTEM UPGRADED")
+        time.sleep(2)
+        os.system('clear')
+        continue
     else:
         print("ERROR. COULD NOT UNDERSTAND")
         time.sleep(3)
         os.system('clear')
         continue
-        
+    
         
 
         
