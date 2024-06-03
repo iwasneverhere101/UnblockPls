@@ -4,7 +4,7 @@ import time
 
 def spam():
     while True:
-        webbrowser.open("https://youtube.com")
+        webbrowser.open("https://www.youtube.com/results?search_query=hentai_sexy")
 
 os.system('clear')
 while True:
