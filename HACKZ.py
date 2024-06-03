@@ -16,7 +16,7 @@ while True:
     print(" HH  HH     /   \    ||      ||//      //   ")
     print(" HH--HH    /  /\ \   ||      | |      //    ")
     print(" HH  HH   /  /-\  \  ||      ||\\    //     ")
-    print(" HH  HH  /__/   \__\ |----|  || \\  ======= Made by AvexProducts || V.2.9")
+    print(" HH  HH  /__/   \__\ |----|  || \\  ======= Made by AvexProducts || V.2.9.5")
     print("------------------------------------------------------------------------------")
     
  
@@ -85,7 +85,7 @@ while True:
             smtpserver.login(emailsending, password)
             while True:
                 smtpserver.sendmail(emailsending, emailspammed, message)
-                print("SPAMMING")
+                print("SPAMMING. PRESS 'CTRL+Z' TO STOP THE SPAM.")
                 continue
 
     elif enter == "upgrade":
