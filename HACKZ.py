@@ -80,15 +80,16 @@ while True:
         print("What is the email spamming password?")
         password=input("Enter: ")
 
-        with smtplib.SMTP('smtp.gmail.com', '587') as smtpserver:
-            smtpserver.ehlo()
-            smtpserver.starttls()
-            smtpserver.ehlo()
-            smtpserver.login(emailsending, password)
-            while True:
-                smtpserver.sendmail(emailsending, emailspammed, message)
-                print("SPAMMING. PRESS 'CTRL+Z' TO STOP THE SPAM.")
-                continue
+        while True:
+            with smtplib.SMTP('smtp.gmail.com', '587') as smtpserver:
+                smtpserver.ehlo()
+                smtpserver.starttls()
+                smtpserver.ehlo()
+                smtpserver.login(emailsending, password)
+                while True:
+                    smtpserver.sendmail(emailsending, emailspammed, message)
+                    print("SPAMMING. PRESS 'CTRL+Z' TO STOP THE SPAM.")
+                    continue
 
     elif enter == "upgrade":
         os.system('sudo apt-get upgrade')
