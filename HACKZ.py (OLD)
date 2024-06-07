@@ -12,6 +12,7 @@ def spam():
 os.system('clear')
 while True:
     print(Fore.RED + "I ain't responsible for the shi* you do with this.")
+    print("PLEASE NOTE THIS IS THE OLD DISCONTINUED VERSION OF HACKZ")
     print("-----------------------------------------------------------------------------")
     print(" HH  HH      /=\     |====|  || //  ======= ")
     print(" HH  HH     /   \    ||      ||//      //   ")
