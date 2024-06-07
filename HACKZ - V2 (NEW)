@@ -18,7 +18,7 @@ while True:
         print(" HH  HH     /   \    ||      ||//      //   ")
         print(" HH--HH    /  /\ \   ||      | |      //    ")
         print(" HH  HH   /  /-\  \  ||      ||\\    //     ")
-        print(" HH  HH  /__/   \__\ |----|  || \\  ======= Made by AvexProducts || V.UNSTABLE_TESTING NOTE: MIGHT BECOME OFFICIAL VERSION")
+        print(" HH  HH  /__/   \__\ |----|  || \\  ======= Made by AvexProducts || V.1.0")
         print("------------------------------------------------------------------------------")
     
  
