@@ -8,7 +8,6 @@ def spam():
     while True:
         webbrowser.open('https://hacks.com')
 
-
 os.system('clear')
 while True:
     if state == "":
@@ -21,9 +20,6 @@ while True:
         print(" HH  HH  /__/   \__\ |----|  || \\  ======= Made by AvexProducts || V.1.0")
         print("------------------------------------------------------------------------------")
     
- 
-
-                                                                                 
         print("***Welcome to HACKZ***")
         print("--------------------------------------------------------------------")
         print("[MENU:]                                                        ")
@@ -31,6 +27,7 @@ while True:
         print("[TOR: Type 'tor1' first and then 'tor2' to download tor            ]")
         print("[SPAMMERS: Type 'spammers' to view spammers such as email spammers ]")
         print("[UPDATE SYSTEM: Type 'update' to update your system                ]")
+        print("[CREDITS: Type 'credits' to view the credits                       ]")
         print("[UPGRADE SYSTEM: Type 'upgrade' to upgrade your system             ]")
         print("[EXIT: Type 'q' to exit                                            ] ")
         print("--------------------------------------------------------------------")
@@ -43,7 +40,6 @@ while True:
         print("[COMPUTER SPAM: Type 'spam' to run a simple spam virus             ]")
         print("[EXIT AND GO BACK TO HOME PAGE: Type 'q' to exit the spam menu     ]")
         print("--------------------------------------------------------------------")
-
 
     enter=input("Enter: ")
 
@@ -79,6 +75,11 @@ while True:
         elif enter == "upgrade":
             os.system('sudo apt-get upgrade')
             print("SYSTEM UPGRADED")
+            time.sleep(2)
+            os.system('clear')
+            state=""
+        elif enter == "credits":
+            print("[MAIN PROGRAMMER AND TESTER: AvexProducts]")
             time.sleep(2)
             os.system('clear')
             state=""
@@ -120,4 +121,3 @@ while True:
             time.sleep(2)
             os.system('clear')
             state=""
-            
