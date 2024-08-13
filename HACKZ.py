@@ -1,31 +1,34 @@
-state=""
 from colorama import Fore
 import os
 import webbrowser
 import time
+state = ""
 
 def spam():
     while True:
-        webbrowser.open('https://hacks.com')
+        webbrowser.open("https://hackers-arise.com")
+        print("NOT SPONSERED BUT AMAZING!!!!")
 
-os.system('clear')
+        
 while True:
     if state == "":
+        os.system('clear')
         print(Fore.RED + "I ain't responsible for the shi* you do with this.")
         print("-----------------------------------------------------------------------------")
         print(" HH  HH      /=\     |====|  || //  ======= ")
         print(" HH  HH     /   \    ||      ||//      //   ")
         print(" HH--HH    /  /\ \   ||      | |      //    ")
         print(" HH  HH   /  /-\  \  ||      ||\\    //     ")
-        print(" HH  HH  /__/   \__\ |----|  || \\  ======= Made by AvexProducts || V.1.0")
+        print(" HH  HH  /__/   \__\ |----|  || \\  ======= Made by AvexProducts || V.2.0")
         print("------------------------------------------------------------------------------")
-    
+
         print("***Welcome to HACKZ***")
         print("--------------------------------------------------------------------")
         print("[MENU:]                                                        ")
         print("--------------------------------------------------------------------")
         print("[TOR: Type 'tor1' first and then 'tor2' to download tor            ]")
         print("[SPAMMERS: Type 'spammers' to view spammers such as email spammers ]")
+        print("[STEAM: Type 'steam' to install steam                              ]")
         print("[UPDATE SYSTEM: Type 'update' to update your system                ]")
         print("[CREDITS: Type 'credits' to view the credits                       ]")
         print("[UPGRADE SYSTEM: Type 'upgrade' to upgrade your system             ]")
@@ -83,11 +86,24 @@ while True:
             time.sleep(2)
             os.system('clear')
             state=""
+        #CONTINUE THIS
+        elif enter == "steam":
+            os.system('sudo apt-get update')
+            os.system('sudo apt-get upgrade')
+            os.system('sudo apt-get install flatpak')
+            os.system('sudo apt-get install xorg')
+            os.system('sudo wget https://dl.flathub.org/repo/appstream/com.valvesoftware.Steam.flatpakref')
+            os.system('sudo flatpak install com.valvesoftware.Steam.flatpakref')
+            time.sleep(4)
+            print("STEAM IS INSTALLED.")
+            time.sleep(2)
+            state = ""
         else:
             print("ERROR. COULD NOT UNDERSTAND")
             time.sleep(3)
             os.system('clear')
             state=""
+            
     elif state == "spammers":
         if enter == "espam":
             import smtplib
@@ -121,3 +137,5 @@ while True:
             time.sleep(2)
             os.system('clear')
             state=""
+
+
