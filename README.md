@@ -13,7 +13,11 @@ We put a lot of effort into making this tool! Enjoy using it!
 
 IMAGES:
 ![Screenshot 2024-06-06 16 33 17](https://github.com/AvexProducts/HACKZ/assets/169751050/3dcd5035-2661-4e17-b076-5af7b93a3dac)
-It's Getting updated! : ![image](https://github.com/user-attachments/assets/3898f2c5-a9e0-4af8-a4f3-751e43bfa4f6)
+
+=============================================================================================================================
+
+It's Getting updated! : 
+![image](https://github.com/user-attachments/assets/3898f2c5-a9e0-4af8-a4f3-751e43bfa4f6)
 
 
 
