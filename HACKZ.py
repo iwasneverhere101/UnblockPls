@@ -107,7 +107,7 @@ while True:
     elif state == "spammers":
         if enter == "espam":
             import smtplib
-            message="HAHA"
+            message="GYATT"
 
             print("EMAIL SPAMMER")
             print("MAKE SURE LESS-SECURE-APPS IS TURNED ON")
