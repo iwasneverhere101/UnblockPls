@@ -12,6 +12,7 @@ while True:
         os.system('sudo apt-get install python3-pip')
         os.system('sudo pip3 install -r requirements.txt --break-system-packages')
         os.system('sudo python3 HACKZ.py')
+        break
     else:
         print("ERROR. COULD NOT UNDERSTAND")
         continue
