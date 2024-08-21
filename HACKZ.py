@@ -130,6 +130,7 @@ while True:
                 elif choice == "N":
                     print("LEAVING...")
                     time.sleep(2)
+                    break
                     state = ""
                     
                 else:
