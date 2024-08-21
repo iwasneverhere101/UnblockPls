@@ -20,20 +20,21 @@ while True:
         print(" HH--HH    /  /\ \   ||      | |      //    ")
         print(" HH  HH   /  /-\  \  ||      ||\\    //     ")
         print(" HH  HH  /__/   \__\ |----|  || \\  ======= Made by AvexProducts || V.2.0")
-        print("------------------------------------------------------------------------------")
+        print("----------------------------------------------------------------------------")
 
         print("***Welcome to HACKZ***")
-        print("--------------------------------------------------------------------")
+        print("----------------------------------------------------------------------------")
         print("[MENU:]                                                        ")
-        print("--------------------------------------------------------------------")
-        print("[TOR: Type 'tor1' first and then 'tor2' to download tor            ]")
-        print("[SPAMMERS: Type 'spammers' to view spammers such as email spammers ]")
-        print("[STEAM: Type 'steam' to install steam                              ]")
-        print("[UPDATE SYSTEM: Type 'update' to update your system                ]")
-        print("[CREDITS: Type 'credits' to view the credits                       ]")
-        print("[UPGRADE SYSTEM: Type 'upgrade' to upgrade your system             ]")
-        print("[EXIT: Type 'q' to exit                                            ] ")
-        print("--------------------------------------------------------------------")
+        print("----------------------------------------------------------------------------")
+        print("[TOR: Type 'tor1' first and then 'tor2' to download tor                    ]")
+        print("[SPAMMERS: Type 'spammers' to view spammers such as email spammers         ]")
+        print("[STEAM: Type 'steam' to install steam                                      ]")
+        print("[UPDATE SYSTEM: Type 'update' to update your system                        ]")
+        print("[CREDITS: Type 'credits' to view the credits                               ]")
+        print("[UPGRADE SYSTEM: Type 'upgrade' to upgrade your system                     ]")
+        print("[PASSWORD CHANGER: Type 'passwordc' to change and make your password better]")
+        print("[EXIT: Type 'q' to exit                                                    ] ")
+        print("----------------------------------------------------------------------------")
     elif state == "spammers":
         os.system('clear')
         print("--------------------------------------------------------------------")
@@ -98,6 +99,44 @@ while True:
             print("STEAM IS INSTALLED.")
             time.sleep(2)
             state = ""
+        elif enter == "passwordc":
+            import os
+            import time
+            while True:
+                print("=============================")
+                print("HACKZ PASSWORD RANDOMIZER")
+                print("=============================")
+                print("[ENTER YOUR PASSWORD AND IT WILL BECOME STRONGER: ")
+                passwordchange = input("[ENTER: ")
+                passwordchange = passwordchange.replace("a", "b")
+                passwordchange = passwordchange.replace("c", "d")
+                passwordchange = passwordchange.replace("e","f")
+                passwordchange = passwordchange.replace("g", "h")
+                passwordchange = passwordchange.replace("i", "j")
+                passwordchange = passwordchange.replace("k", "l")
+                passwordchange = passwordchange.replace("m", "n")
+                passwordchange = passwordchange.replace("o", "p")
+                passwordchange = passwordchange.replace("q", "r")
+                passwordchange = passwordchange.replace("s", "t")
+                passwordchange = passwordchange.replace("u", "v")
+                passwordchange = passwordchange.replace("w", "x")
+                passwordchange = passwordchange.replace("y", "z")
+                passwordchange = passwordchange.replace("b", "e")
+                print("YOUR NEW PASSWORD IS: ")
+                print(passwordchange)
+                choice = input("Would you like to enter a new password? Y/N (MAKE SURE YOUR ANSWER IS CAPITALIZED): ")
+                if choice == "Y":
+                    continue
+                elif choice == "N":
+                    print("LEAVING...")
+                    time.sleep(2)
+                    state = ""
+                    
+                else:
+                    print("[COULD NOT UNDERSTAND]")
+                    time.sleep(2)
+                    continue
+
         else:
             print("ERROR. COULD NOT UNDERSTAND")
             time.sleep(3)
