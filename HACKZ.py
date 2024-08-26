@@ -19,7 +19,7 @@ while True:
         print(" HH  HH     /   \    ||      ||//      //   ")
         print(" HH--HH    /  /\ \   ||      | |      //    ")
         print(" HH  HH   /  /-\  \  ||      ||\\    //     ")
-        print(" HH  HH  /__/   \__\ |----|  || \\  ======= Made by AvexProducts || V.2.0")
+        print(" HH  HH  /__/   \__\ |----|  || \\  ======= Made by AvexProducts || V.3.5")
         print("----------------------------------------------------------------------------")
 
         print("***Welcome to HACKZ***")
