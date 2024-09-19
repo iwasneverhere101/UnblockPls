@@ -4,6 +4,15 @@
 !!! NOTE: THIS IS MADE FOR DEBIAN LINUX SYSTEMS, PREFERABLE CHROMEBOOKS !!!
 
 ==================================================================================
+INSTALLATION GUIDE:
+==================================================================================
+1: Open terminal and type 'sudo git clone https://github.com/AvexProducts/HACKZ.git'
+2: Type 'cd HACKZ'
+3: Type 'sudo python3 HACKZ_INSTALLER.py'
+4: Follow on-screen instructions
+5: After HACKZ is installed and running, to open the latest version again just type: 'sudo python3 HACKZ.py'
+==================================================================================
+
 Get a lot of free hacks and bypass school chromebook settings for free.
 
 You can email spam and even download the tor browser! Now steam as well!
