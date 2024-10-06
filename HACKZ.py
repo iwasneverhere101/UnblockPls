@@ -170,9 +170,10 @@ while True:
                     continue
         elif enter == "selfd":
             home = input("What is your home directory named (NOT ROOT DIRECTORY): ")
-            os.system('cd ' +home)
-            os.system('sudo rm -r HACKZ')
+            hackz_path = os.path.join(home, "HACKZ")  # Create the full path to the HACKZ directory
+            os.system(f'sudo rm -r "{hackz_path}"')  # Remove the HACKZ directory
             print("DONE.")
+
         else:
             print("ERROR. COULD NOT UNDERSTAND")
             time.sleep(3)
