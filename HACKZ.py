@@ -181,7 +181,7 @@ while True:
             print("EMAIL SPAMMER")
             print("MAKE SURE LESS-SECURE-APPS IS TURNED ON")
             print("What is the email spamming")
-            emailsending=input("Enter:")
+            emailsending=input("Enter: ")
             print("What is the email being spammed")
             emailspammed=input("Enter :")
             print("What is the email spamming password?")
