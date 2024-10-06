@@ -24,7 +24,7 @@ while True:
         wait()
         print(" HH  HH     /   \    ||      ||//      //   ")
         wait()
-        print(" HH--HH    /  /\ \   ||      | |      //    ")
+        print(" HH--HH    /  /\ \   ||      | |      //    ")                                                                         
         wait()
         print(" HH  HH   /  /-\  \  ||      ||\\    //     ")
         wait()
