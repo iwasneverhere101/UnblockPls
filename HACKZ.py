@@ -55,8 +55,6 @@ while True:
         wait()
         print("[PASSWORD CHANGER: Type 'passwordc' to change and make your password better]")
         wait()
-        print("[SELF-DESTRUCT: Type 'selfd' to delete HACKZ and hide that you have used it]")
-        wait()
         print("[EXIT: Type 'q' to exit                                                    ] ")
         wait()
         print("----------------------------------------------------------------------------")
@@ -168,11 +166,7 @@ while True:
                     print("[COULD NOT UNDERSTAND]")
                     time.sleep(2)
                     continue
-        elif enter == "selfd":
-            home = input("What is your home directory named (NOT ROOT DIRECTORY): ")
-            hackz_path = os.path.join(home, "HACKZ")  # Create the full path to the HACKZ directory
-            os.system(f'sudo rm -r "{hackz_path}"')  # Remove the HACKZ directory
-            print("DONE.")
+       
 
         else:
             print("ERROR. COULD NOT UNDERSTAND")
