@@ -55,7 +55,7 @@ while True:
         wait()
         print("[PASSWORD CHANGER: Type 'passwordc' to change and make your password better  ]")
         wait()
-        print("[PASSWORD HACKER: Type 'passwordscam' to potentionally get someones password ]
+        print("[PASSWORD HACKER: Type 'passwordscam' to potentionally get someones password ] ")
         wait()
         print("[EXIT: Type 'q' to exit                                                      ] ")
         wait()
