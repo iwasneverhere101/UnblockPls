@@ -12,7 +12,7 @@ INSTALLATION GUIDE:
 
 =================================================================================
 
-1: Open terminal and type 'sudo git clone https://github.com/AvexProducts/HACKZ.git'
+1: Open terminal and type 'sudo git clone https://github.com/iwasneverhere101/UnblockPls.git'
 
 2: Type 'cd HACKZ'
 
