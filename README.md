@@ -1,3 +1,6 @@
+
+#THIS IS THE UNBLOCKED AND LATEST VERSION OF HACKZ. THE OTHER ACCOUNT HAS BEEN SHUT DOWN AND WILL NO LONGER BE UPDATED. 
+
 # HACKZ
 ==================================================================================
 
