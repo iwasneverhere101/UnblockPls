@@ -4,7 +4,7 @@ import webbrowser
 import time
 state = ""
 
- passwordlist = ('''
+passwordlist = ('''
             aaa
             abc123
             acc
