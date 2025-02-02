@@ -1069,7 +1069,7 @@ while True:
         wait()
         print(" HH  HH   /  /-\  \  ||      ||\\    //     ")
         wait()
-        print(" HH  HH  /__/   \__\ |----|  || \\  ======= Made by AvexProducts/iwasneverhere101 || V.4.0")
+        print(" HH  HH  /__/   \__\ |----|  || \\  ======= Made by AvexProducts/iwasneverhere101 || V.4.5")
         wait()
         print("----------------------------------------------------------------------------")
         wait()
