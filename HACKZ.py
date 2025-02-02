@@ -1069,7 +1069,7 @@ while True:
         wait()
         print(" HH  HH   /  /-\  \  ||      ||\\    //     ")
         wait()
-        print(" HH  HH  /__/   \__\ |----|  || \\  ======= Made by AvexProducts || V.4.0")
+        print(" HH  HH  /__/   \__\ |----|  || \\  ======= Made by AvexProducts/iwasneverhere101 || V.4.0")
         wait()
         print("----------------------------------------------------------------------------")
         wait()
@@ -1155,8 +1155,8 @@ while True:
             os.system('clear')
             state=""
         elif enter == "credits":
-            print("[MAIN PROGRAMMER AND TESTER: AvexProducts]")
-            time.sleep(2)
+            print("[MAIN PROGRAMMER AND TESTER: AvexProducts. AvexProducts Account = Discontinued. Latest version maintained by iwasneverhere101]")
+            time.sleep(5)
             os.system('clear')
             state=""
         #CONTINUE THIS
