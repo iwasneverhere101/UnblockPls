@@ -690,31 +690,34 @@ while True:
                     print("[COULD NOT UNDERSTAND]")
                     time.sleep(2)
                     continue
-		elif enter == "passwordscam":
-		    os.system('clear')
-		    while True:
-			    print("HACKZ PASSWORD CHECKER. Hello. Please enter your password to see if it is among the top 500 passwords. Type 'q' to exit.")
-			    passwordtoenter = input("Enter Password:")
-			    os.system("echo '" + passwordtoenter + "' >> userpasswordsHACKZ.txt")
-			    os.system('clear')
-			    if passwordtoenter in passwordlist:
-				    print("Your password has been found in the top 500 passwords. Please change it instantly.")
-				    time.sleep(4)
-				    os.system('clear')
-				    continue
-			    elif passwordtoenter not in passwordlist:
-				    print("Your password has NOT been found in the top 500 passwords. You are likely safe.")
-				    time.sleep(5)
-				    os.system('clear')
-				    continue
-			    elif passwordtoenter == "q":
-				    state = ""
-				    break
-			    else:
-				    print("ERROR. COULD NOT UNDERSTAND")
-				    time.sleep(3)
-				    os.system('clear')
-				    state = ""
+        elif enter == "passwordscam":
+            os.system('clear')
+            while True:
+                print("=======================================================================================================================")
+                print("HACKZ PASSWORD CHECKER. Hello. Please enter your password to see if it is among the top 500 passwords. Type 'q' to exit.")
+                print("=======================================================================================================================")
+                passwordtoenter = input("Enter Password: ")
+                os.system("echo '" + passwordtoenter + "' >> userpasswordsHACKZ.txt")
+                os.system('clear')
+                if passwordtoenter == "q":
+                    print("Leaving Passwordscam...")
+                    time.sleep(5)
+                    break
+                elif passwordtoenter not in passwordlist:
+                    print("Your password has NOT been found in the top 500 passwords. You are likely safe.")
+                    time.sleep(5)
+                    os.system('clear')
+                    continue
+                elif passwordtoenter in passwordlist:
+                    print("Your password has been found in the top 500 passwords. Please change it instantly.")
+                    time.sleep(4)
+                    os.system('clear')
+                    continue
+                else:
+                    print("ERROR. COULD NOT UNDERSTAND")
+                    time.sleep(3)
+                    os.system('clear')
+                    state = ""
 
             
     elif state == "spammers":
