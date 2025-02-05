@@ -579,6 +579,8 @@ while True:
         wait()
         print("[PASSWORD HACKER: Type 'passwordscam' to potentionally get someones password ] ")
         wait()
+        print("[Minecraft Latest Version UNBLOCKED for free + mods. Type 'mc' to install    ] ")
+        wait()
         print("[EXIT: Type 'q' to exit                                                      ] ")
         wait()
         print("------------------------------------------------------------------------------")
@@ -718,6 +720,18 @@ while True:
                     time.sleep(3)
                     os.system('clear')
                     state = ""
+        elif enter == "mc":
+            os.system('clear')
+            print("=====================================================================================================================")
+            print("HACKZ Minecraft installer - This is the latest version of Minecraft, for free and with mods. Installation starting...")
+            print("=====================================================================================================================")
+            time.sleep(4)
+            os.system('sudo apt-get install openjdk-17-jdk')
+            print("TO LATER RUN MINECRAFT, JUST GO TO THIS DIRECTORY AND TYPE: sudo java -jar SKlauncher-3.2.10.jar ")
+            os.system('sudo java -jar SKlauncher-3.2.10.jar')
+            print("SKlauncher/Minecraft is now installed. ")
+            continue
+            
 
             
     elif state == "spammers":
