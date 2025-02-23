@@ -728,7 +728,7 @@ while True:
             time.sleep(4)
             os.system('sudo apt-get install openjdk-17-jdk')
             print("TO LATER RUN MINECRAFT, JUST GO TO THIS DIRECTORY AND TYPE: sudo java -jar SKlauncher-3.2.10.jar ")
-            os.system('sudo java -jar SKlauncher-3.2.10.jar')
+            os.system('java -jar SKlauncher-3.2.10.jar')
             print("SKlauncher/Minecraft is now installed. If any errors occured, it is likely because Sklauncher is banned - although few know about it.")
             time.sleep(6)
             continue
