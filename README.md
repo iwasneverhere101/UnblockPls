@@ -16,11 +16,13 @@ INSTALLATION GUIDE:
 
 2: Type 'cd UnblockPls'
 
-3: Type 'sudo python3 HACKZ_INSTALLER.py'
+3: Type 'sudo chmod 755 HACKZ_INSTALLER.sh'
 
-4: Follow on-screen instructions
+4: Type './HACKZ_GUI_INSTALLER.sh'
 
-5: After HACKZ is installed and running, to open the latest version again just type: 'sudo python3 HACKZ.py'
+5: Follow on-screen instructions
+
+6: After HACKZ is installed and running, to open the latest version again just type: 'sudo python3 HACKZ.py'
 
 =================================================================================
 
