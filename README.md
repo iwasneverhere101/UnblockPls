@@ -32,6 +32,14 @@ You can email spam and even download the tor browser! Now steam as well!
 
 We update very often and it would be great to have support! 
 
+=================================================================================
+
+# NEWS:
+
+The installer has been updated to an easy to use GUI, and the entire HACKZ script may be converted to GUI soon.
+
+=================================================================================
+
 We put a lot of effort into making this tool! Enjoy using it! IMAGES:
 
 ![Screenshot 2024-06-06 16 33 17](https://github.com/AvexProducts/HACKZ/assets/169751050/3dcd5035-2661-4e17-b076-5af7b93a3dac)
