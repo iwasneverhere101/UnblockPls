@@ -16,7 +16,7 @@ INSTALLATION GUIDE:
 
 2: Type 'cd UnblockPls'
 
-3: Type 'sudo chmod 755 HACKZ_INSTALLER.sh'
+3: Type 'sudo chmod 755 HACKZ_GUI_INSTALLER.sh'
 
 4: Type './HACKZ_GUI_INSTALLER.sh'
 
