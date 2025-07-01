@@ -1,3 +1,5 @@
+print("WARNING!!!!!!!! THIS VERSION IS DEPRECATED!!!!! THE LATEST IS THE HACKZ_GUI!!!!")
+
 from colorama import Fore
 import os
 import webbrowser
