@@ -10,6 +10,7 @@ if [ $answer = "yes" ]; then
         dialog --msgbox "Thank you for agreeing. Beginning the installation" 10 45
         sudo apt-get update
         sudo apt-get upgrade
+        sudo chmod 755 HACKZ_GUI_INSTALLER.sh
         clear
         sudo python3 HACKZ_GUI.sh
 elif [ $answer = "no" ]; then
