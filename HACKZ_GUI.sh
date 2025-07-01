@@ -32,18 +32,19 @@ if [ "$enter" -eq 0 ]; then
 
 		case $choices in
 			1) 
-				{
+				(
     				echo "deb http://ftp.debian.org/debian bookworm main contrib" | sudo tee -a /etc/apt/sources.list.d/cros.list
 				echo 20
 				echo "deb-src http://ftp.debian.org/debian bookworm main contrib" | sudo tee -a /etc/apt/sources.list.d/cros.list
     				echo 40
-				sudo apt-get update
+				sudo apt-get update > /dev/null
     				echo 60
-				sudo apt-get upgrade
+				sudo apt-get upgrade > /dev/null
     				echo 80
-				sudo apt-get install torbrowser-launcher
+				sudo apt-get install torbrowser-launcher > /dev/null
     				echo 100
-				dialog --msgbox "Tor Browser has been installed. " 10 40 } | dialog --title "Installing Tor Browser..." --gauge "Progress: " 10 70 0 2>&1>/dev/tty
+    				) | dialog --title "Installing Tor Browser..." --gauge "Progress: " 10 70 0 2>&1>/dev/tty
+				dialog --msgbox "Tor Browser has been installed. " 10 40 
 				;;
 			2)
 				sudo apt-get update && sudo apt-get upgrade
