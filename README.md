@@ -1,6 +1,8 @@
 
 # THIS IS THE UNBLOCKED AND LATEST VERSION OF HACKZ. THE OTHER ACCOUNT HAS BEEN SHUT DOWN AND WILL NO LONGER BE UPDATED. 
 
+# THE HACKZ GUI HAS NOW BEEN ADDED!!!!!!
+
 # HACKZ
 ==================================================================================
 
@@ -36,7 +38,7 @@ We update very often and it would be great to have support!
 
 # NEWS:
 
-The installer has been updated to an easy to use GUI, and the entire HACKZ script may be converted to GUI soon.
+THE HACKZ GUI IS HERE!
 
 =================================================================================
 
