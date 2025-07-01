@@ -69,19 +69,19 @@ if [ "$enter" -eq 0 ]; then
 
 					python3 - <<EOF
 					
-import smtplib
+					import smtplib
 					
-from email.mime.text import MIMEText
+					from email.mime.text import MIMEText
 					
-msg=MIMEText('$messagesending')
+					msg=MIMEText('$messagesending')
 
-msg['From'] = '$emailofspammer'
-msg['To'] = '$emailbeingspammed'
+					msg['From'] = '$emailofspammer'
+					msg['To'] = '$emailbeingspammed'
 					
-with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
-	smtp.starttls()
-	smtp.login('$emailofspammer', '$passwordofspammer')
-	smtp.send_message(msg)
+					with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
+						smtp.starttls()
+						smtp.login('$emailofspammer', '$passwordofspammer')
+						smtp.send_message(msg)
 EOF
 
 					sleep 1
