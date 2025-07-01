@@ -54,9 +54,11 @@ if [ "$enter" -eq 0 ]; then
 				;;
 			4)
 				sudo apt-get update
+    				dialog --msgbox "Your local package index has been updated." 10 40
 				;;
 			5)
 				sudo apt-get upgrade
+    				dialog --msgbox "Your installed packages have been upgraded to the latest version in your local package index"
 				;;
 			6)
 				dialog --msgbox "MAKE SURE YOUR ACCOUNT HAS LESS-SECURE APPS TURNED ON (JUST A WARNING)" 10 40
