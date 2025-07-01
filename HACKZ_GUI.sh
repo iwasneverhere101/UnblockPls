@@ -41,7 +41,7 @@ if [ "$enter" -eq 0 ]; then
     				echo 60
 				sudo apt-get upgrade > /dev/null
     				echo 80
-				sudo apt-get install torbrowser-launcher > /dev/null
+				sudo apt-get install torbrowser-launcher
     				echo 100
     				) | dialog --title "Installing Tor Browser..." --gauge "Progress: " 10 70 0 2>&1>/dev/tty
 				dialog --msgbox "Tor Browser has been installed. " 10 40 
