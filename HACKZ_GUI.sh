@@ -32,12 +32,18 @@ if [ "$enter" -eq 0 ]; then
 
 		case $choices in
 			1) 
-				sudo echo "deb http://ftp.debian.org/debian bookworm main contrib" > /etc/apt/sources.list.d/cros.list
-				sudo echo "deb-src http://ftp.debian.org/debian bookworm main contrib" >> /etc/apt/sources.list.d/cros.list
+				{
+    				echo "deb http://ftp.debian.org/debian bookworm main contrib" | sudo tee -a /etc/apt/sources.list.d/cros.list
+				echo 20
+				echo "deb-src http://ftp.debian.org/debian bookworm main contrib" | sudo tee -a /etc/apt/sources.list.d/cros.list
+    				echo 40
 				sudo apt-get update
+    				echo 60
 				sudo apt-get upgrade
+    				echo 80
 				sudo apt-get install torbrowser-launcher
-				dialog --msgbox "Tor Browser has been installed. " 10 40
+    				echo 100
+				dialog --msgbox "Tor Browser has been installed. " 10 40 } | dialog --title "Installing Tor Browser..." --gauge "Progress: " 10 70 0 2>&1>/dev/tty
 				;;
 			2)
 				sudo apt-get update && sudo apt-get upgrade
