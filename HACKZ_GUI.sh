@@ -6,7 +6,7 @@ sudo apt-get install dialog
 
 clear
 
-dialog --msgbox "HACKZ GUI. MADE BY HACKERS300112 - iwasneverhere101 - AvexProducts. Press ENTER to continue" 10 40
+dialog --msgbox "HACKZ GUI. MADE BY HACKERS300112 - iwasneverhere101 - AvexProducts. CURRENT VERSION: 6.0 | Press ENTER to continue" 10 40
 
 enter=$?
 
