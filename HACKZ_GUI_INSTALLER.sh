@@ -10,8 +10,6 @@ if [ $answer = "yes" ]; then
         dialog --msgbox "Thank you for agreeing. Beginning the installation" 10 45
         sudo apt-get update
         sudo apt-get upgrade
-        sudo apt-get install python3-pip
-        sudo pip3 install -r requirements.txt --break-system-packages
         clear
         sudo python3 HACKZ_GUI.sh
 elif [ $answer = "no" ]; then
