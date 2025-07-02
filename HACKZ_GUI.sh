@@ -22,6 +22,7 @@ if [ "$enter" -eq 0 ]; then
 			6 "Email Spammer" \
 			7 "Password Scam - Potentionally Grab Someones Password" \
 			2>&1 >/dev/tty)
+		
 		exit_status=$?
 		
 		if [ "$exit_status" -ne 0 ]; then
